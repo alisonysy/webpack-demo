@@ -1,0 +1,18 @@
+body,html{
+  height: 100vh;
+}
+
+.class1{
+  background: #ddd;
+  width: 100vh;
+  margin: auto;
+  > .class2{
+    background: #ccc;
+    width: 300px;
+    margin: auto;
+    > ul > li{
+      list-style: none;
+      color:#999;
+    }
+  }
+}
